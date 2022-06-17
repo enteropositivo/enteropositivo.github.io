@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://enteropositivo.github.io/sitemap.xml

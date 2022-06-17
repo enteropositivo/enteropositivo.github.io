@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Librería en C# para generar archivos swf de flash - Entero Positivo</title><meta name="description" content="Descripción del Proyecto SwfdotNet es una librería que programé en C# en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/"><link rel="alternate" type="application/atom+xml" href="https://enteropositivo.github.io/feed.xml"><link rel="alternate" type="application/json" href="https://enteropositivo.github.io/feed.json"><meta property="og:title" content="Librería en C# para generar archivos swf de flash"><meta property="og:image" content="https://enteropositivo.github.io/media/website/ep-3.png"><meta property="og:site_name" content="Entero Positivo"><meta property="og:description" content="Descripción del Proyecto SwfdotNet es una librería que programé en C# en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows&hellip;"><meta property="og:url" content="https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/"><meta property="og:type" content="article"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@enteropositivo"><meta name="twitter:title" content="Librería en C# para generar archivos swf de flash"><meta name="twitter:description" content="Descripción del Proyecto SwfdotNet es una librería que programé en C# en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows&hellip;"><meta name="twitter:image" content="https://enteropositivo.github.io/media/website/ep-3.png"><link rel="stylesheet" href="https://enteropositivo.github.io/assets/css/style.css?v=1b7758e063d8aa857ce2e1994b4a65d4"><link rel="stylesheet" href="https://enteropositivo.github.io/assets/css/prism-dark.css?v=4cc85e12ca94c0614c9359a37eb69a0c"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/"},"headline":"Librería en C# para generar archivos swf de flash","datePublished":"2022-02-09T10:52","dateModified":"2022-06-15T12:29","image":{"@type":"ImageObject","url":"https://enteropositivo.github.io/media/website/ep-3.png","height":612,"width":1965},"description":"Descripción del Proyecto SwfdotNet es una librería que programé en C# en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows&hellip;","author":{"@type":"Person","name":"Entero Positivo","url":"https://enteropositivo.github.io/authors/jcarloseth/"},"publisher":{"@type":"Organization","name":"Entero Positivo","logo":{"@type":"ImageObject","url":"https://enteropositivo.github.io/media/website/ep-3.png","height":612,"width":1965}}}</script></head><body><header class="top"><div class="top__logo"><a class="logo" href="https://enteropositivo.github.io/"><img src="https://enteropositivo.github.io/media/website/ep-3.png" alt="Entero Positivo" width="1965" height="612"></a></div><div class="top__search search"><div class="search__overlay js-search-overlay"><div class="search__overlay-inner"><svg class="search__icon" role="presentation" height="17" width="17"><use xlink:href="https://enteropositivo.github.io/assets/svg/svg-map.svg#search"/></svg><form action="https://enteropositivo.github.io/search.html" class="search__form" role="search"><input type="search" name="q" placeholder="Search documentation ..." aria-label="Search" class="search__input js-search-input"></form><button class="search__close js-search-close" aria-label="Close">Close</button></div></div><button class="search__button js-search-btn" aria-label="Search"><span>Search</span> <svg role="presentation" focusable="false" height="17" width="17"><use xlink:href="https://enteropositivo.github.io/assets/svg/svg-map.svg#search"/></svg></button></div><div class="top__links"><a href="https://www.github.com/enteropositivo" class="top__links-url" aria-label="Github" title="Github" target="_blank" rel="noopener"><svg height="24" width="24"><use xlink:href="https://enteropositivo.github.io/assets/svg/svg-map.svg#github"></use></svg></a></div><button class="navbar__toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button></header><main class="main"><div class="main__left"><div class="main__left-inner"><div class="main__left-content"><article class="post"><header><h1 class="post__title">Librería en C# para generar archivos swf de flash</h1><div class="list__item-meta"><a href="https://enteropositivo.github.io/tags/mis-trabajos/" class="invert">mis trabajos</a> <a href="https://enteropositivo.github.io/tags/c/" class="invert">C#</a></div></header><div class="post__entry"><h2 id="descripcin-del-proyecto">Descripción del Proyecto</h2><p>SwfdotNet es una librería que programé en <strong>C#</strong> en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows como en Linux<br><br>Está programada estudiando las especificaciones del formato SWF de Macromedia, por lo que las películas generadas eran compatibles con cualquier reproductor de swf de version 5 en adelante.</p><p><strong><em></em></strong><strong><em>GitHub:</em></strong>&nbsp;<a href="https://github.com/enteropositivo/swf-dotnet" target="_blank">https://github.com/enteropositivo/swf-dotnet</a><a href="https://github.com/enteropositivo/swf-dotnet" target="_blank"></a></p><p></p><h2 id="algunos-ejemplos-de-uso">Algunos ejemplos de uso</h2><p>A continuación muestro algunos ejemplos seleccionados de lo que se puede hacer con esta librería.</p><h3 id="rectngulo-con-relleno-degradado">Rectángulo con relleno degradado</h3><pre class="line-numbers language-csharp"><code>Rectangle Rct = new Rectangle(6000, 2000, 400);      //- ancho, alto, radio
+            
+Rct.LineStyle =new LineStyle(new RGB(255,153,0), 4); //-Estilo de linea (grosor 4)
+            
+//-Creación del gradiente, permite varios colores
+Gradient G = new Gradient(GradientType.LinearGradient,-45); //-Lo haremos lineal inclinado 45º
+G.AddColor(new RGB(255,255,224), 0);                        //-Primer color en posición 0
+G.AddColor(new RGB(255,204,0), 255);                        //-Segundo color en posición 255
+                        
+Rct.FillStyle = new FillStyle(G);     //-Relleno con el gradiente creado
+    
+Movie movie = new Movie(6400, 2400,new RGB(153,153,255));
+movie.Define(Rct);
+movie.Frames[1].Add(Rct);             //-Emplazo al rectángulo en el primer fotograma 
+movie.SaveToFile(@"ejemplo2.swf");    //-Genero el SWF
+</code></pre><figure class="post__image post__image--center"><img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo2.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/3/responsive/ejemplo2-xs.png 300w, https://enteropositivo.github.io/media/posts/3/responsive/ejemplo2-sm.png 480w, https://enteropositivo.github.io/media/posts/3/responsive/ejemplo2-md.png 768w" height="117" width="315" alt=""></figure><hr class="separator separator--dots"><h3 id="cmo-incrustar-imgenes">Cómo incrustar imágenes</h3><pre class="line-numbers language-csharp"><code>Rectangle Rct = new Rectangle(2400,    2400, 400);
+Rct.LineStyle =new LineStyle(new RGB(255,153,0), 4);
+            
+TagDefineBitsJPEG2 jpeg = new TagDefineBitsJPEG2("pin.jpg");   //-Defino la imagen        
+                                
+Rct.FillStyle = new FillStyle(jpeg, BitmapFill.ClippedBitmap); //-Lo relleno con el jpeg
+
+Movie movie = new Movie(4000, 4000,new RGB(153,153,255));
+movie.FrameRate=12;
+            
+movie.Define(jpeg);           //- Añadimos la imagen e la Librería de objetos de la película 
+movie.Define(Rct);
+    
+Matrix mx = new Matrix();     //-Matriz de transformación para manipular objetos
+mx.Tanslate(1400,400);        //-Traslado el objeto 
+mx.Rotate(-30);               //-Lo roto -30º
+            
+movie.Frames[1].Add(Rct, mx); //-Lo añado y le aplico la transformacion
+           
+movie.SaveToFile(@"ejemplo4.swf");</code></pre><figure class="post__image post__image--center"><img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo4.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/3/responsive/ejemplo4-xs.png 300w, https://enteropositivo.github.io/media/posts/3/responsive/ejemplo4-sm.png 480w, https://enteropositivo.github.io/media/posts/3/responsive/ejemplo4-md.png 768w" height="190" width="183" alt=""></figure><hr class="separator separator--dots"><h3 id="creacin-de-una-forma-vectorial-personalizada">Creación de una forma vectorial personalizada</h3><pre class="line-numbers language-csharp"><code>Gradient G = new Gradient(GradientType.LinearGradient,-45);
+G.AddColor(new RGB(255,255,255), 0);
+G.AddColor(new RGB(153,0,0), 255);
+        
+LineTool shap = new LineTool(); //-Objeto de forma personalizada
+
+//- Le añado el estilo de línea y relleno
+shap.LineStyles.Add(new LineStyle(new RGB(91,0,0),0));
+shap.FillStyles.Add(new FillStyle(G));
+            
+//- Establezco el estilo de linea y de relleno anteriores    
+//  Nota: Por defecto ya vienen con un estilo por tanto asigno estilos con índice 2 en la lista de estilos
+shap.SetStyle(2,2);            
+            
+shap.HorizontalTo(6000);    //- Horizontal 6000 Twips a la derecha
+shap.LineTo(200,-200);      //- Linea hasta la posición x=200 y=-200
+shap.HorizontalTo(600);     //- Una pequeña horizontal 600 Twips a la derecha
+shap.VerticalTo(3200);      //- 3200 Twips hacia abajo
+            
+shap.CurveTo(-800,0,0,800); //- Curva indicada por 3 puntos(el último trazado y estos 2 nuevos) 
+            
+shap.HorizontalTo(-5800);   //-Horizontal 5800 hacia la izquierda
+shap.LineTo(-200,-200);     //- una pequeñaa muesca en la esquina
+shap.VerticalTo(-3600);     //- Y cerramos la forma subiendo hasta el inicio
+            
+Movie movie = new Movie(7200, 4600,new RGB(153,153,255));
+movie.Define(shap);
+            
+movie.Frames[1].Add(shap);    
+movie.SaveToFile(@"ejemplo5.swf");</code></pre><figure class="post__image post__image--center"><img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo5.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/3/responsive/ejemplo5-xs.png 300w, https://enteropositivo.github.io/media/posts/3/responsive/ejemplo5-sm.png 480w, https://enteropositivo.github.io/media/posts/3/responsive/ejemplo5-md.png 768w" height="218" width="352" alt=""></figure><hr class="separator separator--dots"><h3 id="botn-con-3-estados-diferentes-reposo-hover-y-clickbr">Botón con 3 estados diferentes (reposo, hover y click)<br></h3><pre class="line-numbers language-csharp"><code>Gradient G = new Gradient(GradientType.LinearGradient,-45);
+G.AddColor(new RGB(255,255,255), 0);
+G.AddColor(new RGB(20,0,125), 255);
+        
+//- Estado del botón en reposo
+Rectangle rct = new Rectangle(2000,2000,400);
+rct.LineStyle =new LineStyle(new RGB(0,50,100),4);
+rct.FillStyle= new FillStyle(G);        //- Relleno con el gradiente creado
+            
+//- Estado del botón en Hover
+Rectangle rctOn = new Rectangle(2000,2000,400);
+rctOn.LineStyle =new LineStyle(new RGB(238,221,34),4);
+rctOn.FillStyle= new FillStyle(G);        //- Relleno con el gradiente creado
+            
+//- Estado del botón en Mouse Down
+Rectangle rctPush = new Rectangle(2000,2000,400);
+rctPush.LineStyle =new LineStyle(new RGB(238,221,34),4);
+rctPush.FillStyle= new FillStyle(new RGB(238,221,34));
+            
+//- Creo el botón y le asigno los estados creados
+TagDefineButton btn = new TagDefineButton();        
+btn.Up=rct;
+btn.Over=rctOn;
+btn.Hit=rct;
+btn.Down=rctPush;
+            
+Movie movie = new Movie(2400, 2400,new RGB(153,153,255));
+            
+movie.Define(rct);        //- Como siempre en flash, cada elemento debe definirse en la libreria
+movie.Define(rctOn);
+movie.Define(rctPush);
+movie.Define(btn);
+            
+movie.Frames[1].Add(btn);    
+movie.SaveToFile(@"ejemplo8.swf");
+
+</code></pre><figure class="post__image post__image--center"><img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo8.gif" height="157" width="272" alt=""></figure><hr class="separator separator--dots"><h3 id="ventana-con-un-botn-para-abrir-o-cerrarla">Ventana con un botón para abrir o cerrarla</h3><p>El siguiente ejemplo es muy completo ya que también programe la librería para que aceptase código de <strong>ActionScript </strong>y así poder crear objetos dinámicos o que respondan a eventos.<br></p><pre class="line-numbers language-csharp"><code>Movie movie = new Movie(6900, 4200,new RGB(255,255,255));
+movie.FrameRate=1;
+
+Gradient G = new Gradient(GradientType.LinearGradient,-45);
+G.AddColor(new RGB(255,255,255), 0);
+G.AddColor(new RGB(153,0,0), 255);
+        
+//- Forma de la venta cerrada 
+LineTool Cerrada = new LineTool();    
+Cerrada.LineStyles.Add(new LineStyle(new RGB(100,100,100),0));
+Cerrada.FillStyles.Add(new FillStyle(G));
+
+Cerrada.SetStyle(2,2);        //-Asigno los nuevos estilos añadidos    
+Cerrada.HorizontalTo(6000);
+Cerrada.LineTo(200,-200);
+Cerrada.HorizontalTo(600);
+Cerrada.VerticalTo(800);
+Cerrada.HorizontalTo(-6600);
+Cerrada.LineTo(-200,-200);
+Cerrada.VerticalTo(-400);
+
+
+LineTool Abierta = new LineTool();
+Abierta.LineStyles.Add(new LineStyle(new RGB(100,100,100),0));
+Abierta.FillStyles.Add(new FillStyle(G));
+
+Abierta.SetStyle(2,2);        //-Asigno los nuevos estilos añadidos
+Abierta.HorizontalTo(6000);
+Abierta.LineTo(200,-200);
+Abierta.HorizontalTo(600);
+Abierta.VerticalTo(3200);
+Abierta.CurveTo(-800,0,0,800);
+Abierta.HorizontalTo(-5800);
+Abierta.LineTo(-200,-200);
+Abierta.VerticalTo(-3600);
+    
+
+Rectangle rct = new Rectangle(200,200,2);        //- Botón en reposo
+rct.LineStyle =new LineStyle(new RGB(255,255,255),0);
+rct.FillStyle= new FillStyle(G);
+
+Rectangle rctOn = new Rectangle(200,200,2);      //- Botón Activo
+rctOn.LineStyle =new LineStyle(new RGB(238,221,34),2);
+rctOn.FillStyle= new FillStyle(G);
+
+TagDefineButton boton = new TagDefineButton();
+boton.Up=rct;
+boton.Over=rctOn;
+boton.Hit=rct;
+boton.Down=rct;
+        
+//- Creo un nuevo movie clip que representa la Ventana
+DefineSprite ventana = new DefineSprite();
+
+ventana.Frames[1].Add(Cerrada);
+ventana.Frames[1].Script.Stop();    //-Stop() en este frame para evitar un bucle
+ventana.Frames[2].Remove(Cerrada);  //-En el 2º frame solo debe estar la ventana Abierta
+ventana.Frames[2].Add(Abierta);
+
+//- ActionScript -&gt;   var open;
+ventana.Frames[1].Script.Push("open");  //-Meto en la pila el nomrbre de la variable
+ventana.Frames[1].Script.DefineVar();   //-Creo una variable con lo que tenga en la pila
+
+//- ActionScript -&gt;   open=false;
+ventana.Frames[1].Script.Push("open");
+ventana.Frames[1].Script.Push(0);
+ventana.Frames[1].Script.SetVar();
+
+boton.Script.TellTarget("WINDOW");    //-Llamo al simbolo por el nombre 
+
+//- ActionScript -&gt;   open=!open;     Para alternar x entre True y False
+boton.Script.Push("open");    //-  Añado a la pila X Para cuando llame a SetVar
+boton.Script.Push("open");    //-     Añado a la pila X para recoger el valor de x con GetVar  
+boton.Script.GetVar();        //-  Saco de la pila x y GetVar mete su valor correspondiente
+boton.Script.Not();           //-  Niego el valor que haya en la pila (el obtenido con GetVar)
+boton.Script.SetVar();        //-  Y se lo asigno a la variable que hubiera en la pila (la 1ª x)
+
+//-    ActionScript -&gt;   if(open==true)
+boton.Script.Push(1);        //-  Para comparar con Equal
+boton.Script.Push("open");   //- Quiero obtener el valor de la variable x
+boton.Script.GetVar();       //- Obtengo el valor
+boton.Script.Equal();        //- Para usar con la instruccion IF
+boton.Script.If();           //- Tengo en la pila un valor verdadero??
+boton.Script.gotoAndStop(2);  //- Me muevo al frame del sprite que tenía la ventana abierta
+boton.Script.Else();
+boton.Script.gotoAndStop(1);  //- Cierro la ventana
+boton.Script.EndIf();
+    
+//- Librerá de simbolos de la película    
+movie.Define(Abierta);
+movie.Define(Cerrada);
+movie.Define(rct);
+movie.Define(rctOn);
+movie.Define(boton);
+movie.Define(ventana);
+
+movie.Frames[1].Add(ventana, "WINDOW");    //- Añado el Sprite y le asigno el Nombre de la Instancia
+Matrix mx = new Matrix();
+mx.Tanslate(6200,0);
+movie.Frames[1].Add(boton,mx);             //- Añado el botón en la posición indicada por mx
+
+movie.SaveToFile(@"ejemplo9.swf");
+</code></pre><figure class="post__image post__image--center"><img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo9.gif" height="210" width="355" alt=""></figure><hr class="separator separator--dots"><h3 id="generar-swf-desde-aspnet">Generar SWF desde ASP.NET</h3><pre class="line-numbers language-csharp"><code>&lt;%@ Page Language="C#" %&gt;
+&lt;%@ Register TagPrefix="SDN" Namespace="SwfdotNet" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFB" Namespace="SwfdotNet.Format.BasicTypes" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFS" Namespace="SwfdotNet.Format.Shapes" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFT" Namespace="SwfdotNet.Format.Tags" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFU" Namespace="SwfdotNet.Format.UtilTypes" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNS" Namespace="SwfdotNet.Shapes" Assembly="SwfdotNet" %&gt;
+&lt;%
+
+
+//    Uso de gradientes para relleno
+Rectangle Rct = new Rectangle(6000,    2000, 400);
+
+Rct.LineStyle =new LineStyle(new RGB(255,153,0), 4);
+
+//-Creación del gradiente, permite varios colores
+Gradient G = new Gradient(GradientType.LinearGradient,-45);     //-Lo haremos lineal inclinado 45º
+G.AddColor(new RGB(255,255,224), 0);                            //-Primer color en posición 0
+G.AddColor(new RGB(255,204,0), 255);                            //-Segundo color en posicón 255
+
+//-Relleno con el gradiente creado
+Rct.FillStyle = new FillStyle(G);         
+
+Movie movie = new Movie(7000, 4000,new RGB(153,153,255));
+movie.Define(Rct);
+movie.Frames[1].Add(Rct);    
+
+Response.Clear(); 
+
+//- Establecemos los tipos MIME para que el navegador sepa que es un swf
+Response.AddHeader( "Content-Type", "application/x-shockwave-flash");
+Response.AddHeader( "Content-Disposition", "inline;filename=ejemplo7.swf");
+
+Response.BinaryWrite(movie.GetBytes);    // &lt;-- Lanzamos el contenido del swf al navegador !!
+ 
+
+//---- Archivo ejemplo7.aspx ----\\
+%&gt;</code></pre></div><footer><div class="post__footer-top"><div class="post__share"><button class="post__share-button js-post__share-button" aria-label="Share"><svg><use xlink:href="https://enteropositivo.github.io/assets/svg/svg-map.svg#share"></use></svg></button><div class="post__share-popup js-post__share-popup"><a href="https://twitter.com/share?url=https%3A%2F%2Fenteropositivo.github.io%2Flibreria-csharp-para-generar-archivos-swf-de-flash%2F&amp;via=%40EnteroPositivo&amp;text=Librer%C3%ADa%20en%20C%23%20para%20generar%20archivos%20swf%20de%20flash" class="js-share twitter" title="Share with Twitter" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://enteropositivo.github.io/assets/svg/svg-map.svg#twitter"/></svg> Twitter</a></div></div></div><div class="post__footer-bottom"><ul class="post__tag"><li><a href="https://enteropositivo.github.io/tags/c/">C#</a></li><li><a href="https://enteropositivo.github.io/tags/mis-trabajos/">mis trabajos</a></li></ul></div></footer></article></div><aside class="main__left-aside"><div class="main__left-aside__inner"><h3>On this page</h3><nav class="aside-toc" id="aside-toc"></nav></div></aside></div></div><div class="main__right"><div class="main__right-inner"><nav class="navbar"><ul class="navbar__menu"><li><a href="https://enteropositivo.github.io/" target="_self">Inicio</a></li><li><a href="https://enteropositivo.github.io/tags/blog/" target="_self">Blog</a></li><li><a href="https://enteropositivo.github.io/tags/mis-trabajos/" target="_self">Mis trabajos</a></li><li><a href="https://enteropositivo.github.io/tags/" target="_self">Tags</a></li><li><a href="https://enteropositivo.github.io/sobre-me-about-me/" target="_self">Sobre mi / About me</a></li></ul></nav><div class="footer main__right-footer"><div class="footer__copy">Powered by Publii</div></div></div></div></main><footer class="footer"><div class="footer__wrap"><div class="footer__inner"><div class="footer__copy">Powered by Publii</div></div></div></footer><div class="post__progress" id="js-post__progress" aria-hidden="true"></div><script>window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',        
+        submenuWidth: 300,        
+        mobileMenuExpandableSubmenus: true,
+        isHoverMenu: false,
+        ariaButtonAttribute: 'aria-expanded',
+   };</script><script src="https://enteropositivo.github.io/assets/js/html-contents.min.js?v=169077c370ab8ca62b029845f80f7fd5" defer="defer"></script><script>document.addEventListener("DOMContentLoaded", function(event) {
+            htmlContents('#aside-toc', {
+                area: '.post__entry',
+                top: 2,
+                bottom: 3,
+                listType: 'o',
+                filter: function(arr) {
+                    return !arr.matches('.noOutline')
+                },
+                addIds: true,
+                addLinks: true
+            });
+
+            setTimeout(function() {
+                handleActiveClass('#aside-toc');
+            }, 0);
+        })</script><script defer="defer" src="https://enteropositivo.github.io/assets/js/scripts.min.js?v=acf0917a14f9880f48268c3eb955b80e"></script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><script defer="defer" src="https://enteropositivo.github.io/assets/js/prism.js?v=581e53f93ff79dcf1359e0670af7ce01"></script><script defer="defer" src="https://enteropositivo.github.io/assets/js/clipboard.min.js?v=ad98572d415d2f2452845a6068a913c0"></script><script defer="defer" src="https://enteropositivo.github.io/assets/js/prism-copy-to-clipboard.min.js?v=57b50bd6f44169b9bab177133c984653"></script></body></html>

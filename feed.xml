@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Entero Positivo</title>
+    <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
+    <link href="https://enteropositivo.github.io" />
+    <updated>2022-06-17T13:01:32+02:00</updated>
+    <author>
+        <name>Entero Positivo</name>
+    </author>
+    <id>https://enteropositivo.github.io</id>
+
+    <entry>
+        <title>Sobre me / About me</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/sobre-me-about-me/"/>
+        <id>https://enteropositivo.github.io/sobre-me-about-me/</id>
+
+        <updated>2022-06-17T13:01:32+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Contacto Twitter:&nbsp;https://twitter.com/EnteroPositivoGitHub:&nbsp;https://github.com/enteropositivoGists:&nbsp;https://gist.github.com/enteropositivoMedium:&nbsp;https://enteropositivo.medium.comGMail:&nbsp; enteropositivo Domino los siguientes lenguajes de programación C/C++C#JavaJavaScriptPhpLuaPythonVisual BasicRust Tecnologías Aplicaciones de escritorioDesarrollo de libreríasWeb frontend/backend, html/cssProgramación de sistemas embebidosNodeJSAplicaciones multiplataforma Dispositivos y&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="contacto">
+      Contacto
+    </h2>
+
+  <ul>
+    <li><strong>Twitter:</strong>&nbsp;<a href="https://twitter.com/EnteroPositivo" target="_blank">https://twitter.com/EnteroPositivo</a></li><li><strong>GitHub:</strong>&nbsp;<a href="https://github.com/enteropositivo">https://github.com/enteropositivo</a></li><li><strong>Gists:</strong>&nbsp;<a href="https://gist.github.com/enteropositivo" target="_blank">https://gist.github.com/enteropositivo</a></li><li><strong>Medium:</strong>&nbsp;<a href="https://enteropositivo.medium.com" target="_blank">https://enteropositivo.medium.com</a></li><li><strong>GMail:</strong>&nbsp; enteropositivo</li>
+  </ul>
+
+    <h2 id="domino-los-siguientes-lenguajes-de-programacin">
+      Domino los siguientes lenguajes de programación
+    </h2>
+
+  <ul>
+    <li>C/C++</li><li>C#</li><li>Java</li><li>JavaScript</li><li>Php</li><li>Lua</li><li>Python</li><li>Visual Basic</li><li>Rust</li>
+  </ul>
+
+    <h2 id="tecnologas">
+      Tecnologías
+    </h2>
+
+  <ul>
+    <li>Aplicaciones de escritorio</li><li>Desarrollo de librerías</li><li>Web frontend/backend, html/css</li><li>Programación de sistemas embebidos</li><li>NodeJS</li><li>Aplicaciones multiplataforma</li>
+  </ul>
+
+    <h2 id="dispositivos-y-plataformas">
+      Dispositivos y plataformas
+    </h2>
+
+  <ul>
+    <li>Windows / Linux / Android</li><li>Arduino</li><li>micro:bit</li><li>Raspberry Pi</li><li>Stm32</li>
+  </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Extensión para mostrar números hasta 99.999 con micro:bit</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/extension-para-mostrar-numeros-hasta-99999-con-microbit/"/>
+        <id>https://enteropositivo.github.io/extension-para-mostrar-numeros-hasta-99999-con-microbit/</id>
+            <category term="mis trabajos"/>
+            <category term="micro:bit "/>
+
+        <updated>2022-06-17T12:49:11+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Descripción&nbsp; Este sistema lo he creado para poder representar números hasta 99.999 en el display de micro:bit sin necesidad de de que el display tenga&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="descripcinnbsp">
+      Descripción&nbsp;
+    </h2>
+
+  <p>
+    Este sistema lo he creado para poder representar números hasta 99.999 en el display de <strong>micro:bit </strong>sin necesidad de de que el display tenga que hacer scroll.
+  </p>
+
+  <p>
+    El sistema se basa en los leds del propio display y es muy fácil de interpretar.
+  </p>
+
+    <h2 id="sistema-de-representacin">
+      Sistema de representación
+    </h2>
+
+    <h3 id="unidades-con-dgitos-de-0-a-5">
+      Unidades con dígitos de 0 a 5
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/10/1.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/10/responsive/1-xs.png 300w ,https://enteropositivo.github.io/media/posts/10/responsive/1-sm.png 480w ,https://enteropositivo.github.io/media/posts/10/responsive/1-md.png 768w"  height="240" width="771" alt="" />
+      <figcaption>las unidades empiezan por la derecha y se ilumina el led correspondiente al número de 1-5</figcaption>
+    </figure>
+
+    <h3 id="decenas-centenas-etcnbspnbsp">
+      Decenas, centenas etc...&nbsp;&nbsp;
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/10/2.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/10/responsive/2-xs.png 300w ,https://enteropositivo.github.io/media/posts/10/responsive/2-sm.png 480w ,https://enteropositivo.github.io/media/posts/10/responsive/2-md.png 768w"  height="235" width="770" alt="" />
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/10/3.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/10/responsive/3-xs.png 300w ,https://enteropositivo.github.io/media/posts/10/responsive/3-sm.png 480w ,https://enteropositivo.github.io/media/posts/10/responsive/3-md.png 768w"  height="234" width="764" alt="" />
+      <figcaption>Las decenas, centeneas etc...  que contengan números entre 0 y 5 siguen el mismo patrón anterior</figcaption>
+    </figure>
+
+    <h3 id="representar-dgitos-mayores-que-5nbsp-69">
+      Representar dígitos mayores que 5&nbsp; [6-9]
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/10/4.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/10/responsive/4-xs.png 300w ,https://enteropositivo.github.io/media/posts/10/responsive/4-sm.png 480w ,https://enteropositivo.github.io/media/posts/10/responsive/4-md.png 768w"  height="234" width="769" alt="" />
+      <figcaption>Cuando el led superior de una columna está iiluminado es porque el número es mayor que 5, y es calculado como 6 = 5+1, 7=5+2, 9=5+4 </figcaption>
+    </figure>
+
+    <h3 id="representar-cualquier-nmero-entre-0-y-99000">
+      Representar cualquier número entre 0 y 99.000
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/10/5.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/10/responsive/5-xs.png 300w ,https://enteropositivo.github.io/media/posts/10/responsive/5-sm.png 480w ,https://enteropositivo.github.io/media/posts/10/responsive/5-md.png 768w"  height="232" width="767" alt="" />
+      <figcaption>Siguiendo los pasos anteriores podemos representar cualquier número entre 0 y 99.999 en un mismo display de 5x5</figcaption>
+    </figure>
+
+    <h2 id="instalar-extensin-en-makecode">
+      Instalar extensión en Makecode
+    </h2>
+
+  <p>
+    En un proyecto de <a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a> accedemos a <em>Advanced / Extensions</em> y añadimos la siguiente URL en el cuadro de búsqueda:<br><br><strong><a href="https://github.com/enteropositivo/pxt-number100k">https://github.com/enteropositivo/pxt-number100k</a></strong><br>
+  </p>
+
+  <p>
+    Y ya podemos usar el bloque <strong><em>"show number 100k"</em></strong> en nuestros proyectos:
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/10/microbit-makecode.PNG" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/10/responsive/microbit-makecode-xs.PNG 300w ,https://enteropositivo.github.io/media/posts/10/responsive/microbit-makecode-sm.PNG 480w ,https://enteropositivo.github.io/media/posts/10/responsive/microbit-makecode-md.PNG 768w"  height="834" width="1028" alt="" />
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Programar Raspberry Pi Pico con Rust</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/programar-raspberry-pi-pico-con-rust/"/>
+        <id>https://enteropositivo.github.io/programar-raspberry-pi-pico-con-rust/</id>
+            <category term="rust"/>
+            <category term="raspberry pi"/>
+            <category term="Blog"/>
+
+        <updated>2022-06-17T12:02:21+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Requisitos iniciales Si todavía no has instalado Rust puedes hacerlo siguiendo los pasos de aquí Raspberry Pi Pico (o cualquier otra placa con chip RP2040)&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="requisitos-iniciales">
+      Requisitos iniciales
+    </h2>
+
+  <p>
+    Si todavía no has instalado Rust puedes hacerlo siguiendo los pasos de <a href="https://enteropositivo.github.io/programar-en-rust-en-visual-studio-code/">aquí</a>
+  </p>
+
+    <h2 id="instalar-el-compiladornbspbr">
+      Instalar el compilador&nbsp;<br>
+    </h2>
+
+  <p>
+    Raspberry Pi Pico (o cualquier otra  placa con chip <strong>RP2040</strong>) necesita instalar un compilador específico para esa arquitectura
+  </p>
+
+  <p>
+    Abre la línea de comandos y ejecuta lo siguiente:
+  </p>
+<pre class="line-numbers  language-bash"><code>rustup target install thumbv6m-none-eabi
+cargo install flip-link
+cargo install elf2uf2-rs --locked</code></pre>
+
+    <h2 id="descargar-la-plantilla-bsica">
+      Descargar la plantilla básica
+    </h2>
+
+  <p>
+    La siguiente plantilla tiene la configuración necesaria con un ejemplo sencillo de <strong>blink</strong>&nbsp;
+  </p>
+<pre class="line-numbers  language-bash"><code>git clone https://github.com/enteropositivo/rust-raspberry-pi-pico-template</code></pre>
+
+    <h2 id="probando-el-cdigo-en-la-placa">
+      Probando el código en la placa
+    </h2>
+
+  <p>
+    Conecta la Raspberry Pi Pico al USB mientras pulsas el botón de <strong>reset </strong>de la misma y carga el programa de ejemplo de la plantilla
+  </p>
+<pre class="line-numbers  language-bash"><code>cd rust-raspberry-pi-pico-template
+cargo run --release
+</code></pre>
+
+    <h2 id="conocer-el-tamao-real-en-flash">
+      Conocer el tamaño real en Flash
+    </h2>
+
+  <p>
+    Si queremos saber cuánta memoria flash o memoria RAM se va a necesitar para nuestro programa, tenemos que ejecutar el comando "cargo size" y previamente tenemos que las siguientes herramientas:
+  </p>
+<pre class="line-numbers  language-bash"><code>cargo install cargo-binutils
+rustup component add llvm-tools-preview</code></pre>
+
+  <p>
+    Y ya podremos consultar el tamaño real con el siguiente comando:
+  </p>
+<pre class="line-numbers  language-bash"><code>cargo size -- -A</code></pre>
+
+  <p>
+    Nos mostrará una tabla de varias secciones con sus tamaños en bytes:
+  </p>
+
+  <ul>
+    <li><strong>El tamaño en FLASH se calcula con : </strong>.vector-table + .text + .rodata</li><li><strong>El tamaño en RAM:</strong>&nbsp; .data + .bss</li>
+  </ul>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Primeros pasos con Rust en Visual Studio Code</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/programar-en-rust-en-visual-studio-code/"/>
+        <id>https://enteropositivo.github.io/programar-en-rust-en-visual-studio-code/</id>
+            <category term="rust"/>
+            <category term="Blog"/>
+
+        <updated>2022-06-16T12:46:56+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Qué es Rust Rust es un lenguaje de programación multiplataforma y multidispositivo que se presenta como alternativa segura a los lenguajes de software de sistemas&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="qu-es-rust">
+      Qué es Rust
+    </h2>
+
+  <p>
+    <strong>Rust </strong>es un lenguaje de programación multiplataforma y multidispositivo que se presenta como alternativa segura a los lenguajes de software de sistemas existentes como C y C++. <br><br>A diferencia de C y C++, Rust garantiza la seguridad de la memoria y evita muchos de los errores relacionados con el uso incorrecto de la memoria que podría encontrar en C y C++
+  </p>
+
+    <blockquote class="blockquote">
+      Es un lenguaje con un futuro realmente prometedor
+    </blockquote>
+
+    <h2 id="preparando-el-entorno-de-desarrollo">
+      Preparando el entorno de desarrollo
+    </h2>
+
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/8/R.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/8/responsive/R-xs.png 300w ,https://enteropositivo.github.io/media/posts/8/responsive/R-sm.png 480w ,https://enteropositivo.github.io/media/posts/8/responsive/R-md.png 768w"  height="845" width="1420" alt="" />
+      
+    </figure>
+
+    <h3 id="instalar-vscode">
+      Instalar VSCode
+    </h3>
+
+  <p>
+    Si todavía no tienes en entorno de desarrollo Visual Studio Code, puedes descargarlo desde el siguiente enlace:
+  </p>
+
+  <p>
+    <a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a>
+  </p>
+
+    <h3 id="instalar-rust">
+      Instalar Rust
+    </h3>
+
+  <p>
+    Accede al siguiente enlace y descarga el instalador
+  </p>
+
+    <figure class="post__image post__image--center">
+      <a href="https://www.rust-lang.org/tools/install" target="_blank">
+        <img loading="lazy" src="https://enteropositivo.github.io/media/posts/8/Captura.PNG" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/8/responsive/Captura-xs.PNG 300w ,https://enteropositivo.github.io/media/posts/8/responsive/Captura-sm.PNG 480w ,https://enteropositivo.github.io/media/posts/8/responsive/Captura-md.PNG 768w"  height="869" width="1306" alt="" />
+      </a>
+      
+    </figure>
+
+  <p>
+    <a href="https://www.rust-lang.org/tools/install">https://www.rust-lang.org/tools/install</a><br><br>También deberás instalar las herramientas de desarrollo de Visual Studio (si no las teníamos ya instaladas) que las puedes descargar desde el siguiente enlace:<br><br><a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">https://visualstudio.microsoft.com/visual-cpp-build-tools/</a><br><br>
+  </p>
+
+    <h3 id="extensiones-recomendadas-para-vscode">
+      Extensiones recomendadas para VSCode
+    </h3>
+
+  <p>
+    <strong>Rust<br></strong>Resaltado de sintaxis, autocompletado, y más ...<br><a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust">https://marketplace.visualstudio.com/items?itemName=rust-lang.rust</a><br><br><strong>CodeLLDB</strong> <br>Para poder depurar el código rust desde visual studio code<br><a href="https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb">https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb</a><br><br><strong>Rust Analyzer</strong><br>Sirve de gran ayuda al ecribir código ya que nos mostrará posibles errores que estamos cometiendo al programar<br><a href="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer" target="_blank">https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer</a><br><br>
+  </p>
+
+    <h2 id="mi-primer-hola-mundo-en-rust">
+      Mi primer "hola mundo" en Rust
+    </h2>
+
+    <h3 id="crear-un-proyecto-nuevo-con-la-herramienta-cargo">
+      Crear un proyecto nuevo con la herramienta "Cargo"
+    </h3>
+
+  <p>
+    <strong>Cargo </strong>es una herramienta de línea de comandos que sirve como administrador de paquetes (dependencias del proyecto) y otras muchas utilidades como crear nuevos proyectos en rust o compilar el proyecto creado
+  </p>
+
+  <p>
+    Vamos a crear un nuevo proyecto con Cargo,&nbsp; para ello abrimos la línea de comandos y escribimos lo siguiente
+  </p>
+<pre class="line-numbers  language-bash"><code>cargo new hola-mundo --bin</code></pre>
+
+  <p>
+    <strong>hola-mund</strong><strong>o</strong> es el nombre que damos a nuestro primer proyecto&nbsp; y&nbsp; el parámetro <em><strong>--bin</strong></em> indica que queremos crear un programa ejecutable ( si quisiéramos crear una librería habría que usar&nbsp;<em><strong> --lib</strong></em> )
+  </p>
+
+    <h3 id="ejecutar-el-programa-desde-la-lnea-de-comandos">
+      Ejecutar el programa desde la línea de comandos
+    </h3>
+
+  <p>
+    Con el comando anterior se ha creado un nuevo directorio con el nombre del proyecto "hola-mundo"
+  </p>
+
+  <p>
+    Podemos&nbsp; compilar y ejecutar nuestro proyecto con el siguiente comando:
+  </p>
+<pre class="line-numbers  language-bash"><code>cd hola-mundo
+cargo run
+
+&gt;&gt; Hola, mundo!</code></pre>
+
+  <p>
+    - Pulsamos <strong>F5 </strong>para ejecutar<br><br><em><strong>Nota</strong></em>: La primera vez que lo ejecutamos, VSCode&nbsp; nos preguntará si queremos crear un archivo de configuración y otro de ejecución,&nbsp; le decimos que si y veremos nuestro código ejecutándose por el terminal.
+  </p>
+
+  <p>
+    
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Compartir carpetas en Raspberry Pi</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/compartir-carpetas-en-raspberry-pi/"/>
+        <id>https://enteropositivo.github.io/compartir-carpetas-en-raspberry-pi/</id>
+            <category term="raspberry pi"/>
+            <category term="Blog"/>
+
+        <updated>2022-06-14T11:51:41+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Cómo compartir carpetas de&nbsp;Raspberry Pi (o similar) con nuestra red interna para poder enviar archivos o muy útil también cuando estamos programando algún script en&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Cómo compartir carpetas de&nbsp;<strong>Raspberry Pi</strong> (o similar) con nuestra red interna para poder enviar archivos o muy útil también cuando estamos programando algún script en un host diferente o desde <strong>Windows </strong>y queremos probarlo en nuestra Raspberry.<br><br>
+  </p>
+
+    <h2 id="instalar-samba">
+      Instalar Samba
+    </h2>
+
+  <p>
+    Se recomienda previamente actualizar los paquetes y el sistema
+  </p>
+<pre class="line-numbers  language-bash"><code>sudo apt-get update
+sudo apt-get upgrade</code></pre>
+
+  <p>
+    Instalamos samba<br>
+  </p>
+<pre class="line-numbers  language-bash"><code>sudo apt-get install samba</code></pre>
+
+    <h2 id="carperta-compartida">
+      Carperta compartida
+    </h2>
+
+  <p>
+    Creamos la carpeta que vamos a compartir en nuestra red y establecemos todos los privilegios de acceso
+  </p>
+<pre class="line-numbers  language-bash"><code>mkdir /home/pi/shared_folder
+sudo chmod -R 777 /home/pi/shared_folder</code></pre>
+
+    <h2 id="configurar-samba">
+      Configurar Samba
+    </h2>
+
+  <p>
+    Ahora creamos el recurso compartido editando el fichero de configuración de Samba
+  </p>
+<pre class="line-numbers  language-bash"><code>sudo nano /etc/samba/smb.conf</code></pre>
+
+  <p>
+    Nos aseguramos de que estamos en el mismo grupo de trabajo que nuestro PC escribiendo lo siguiente<br>
+  </p>
+<pre class="line-numbers  language-apacheconf"><code>workgroup = WORKGROUP
+wins support = yes</code></pre>
+
+  <p>
+    Ahora en la parte inferior del archivo escribimos la siguiente información de la carpeta que queremos compartir
+  </p>
+<pre class="line-numbers  language-apacheconf"><code> [Shared]
+   comment = A Shared Folder
+   path = /home/pi/shared_folder
+   browsable = yes
+   guest ok = yes
+   writable = yes</code></pre>
+
+  <p>
+    Una vez editado, pulsamos ctrl+x para guardar los cambios&nbsp;
+  </p>
+
+    <h2 id="reiniciar-samba">
+      Reiniciar Samba
+    </h2>
+<pre class="line-numbers  language-bash"><code>sudo systemctl restart smbd.service</code></pre>
+
+  <p>
+    FIN!&nbsp; Ya podemos acceder a nuestra carpeta compartida&nbsp; &nbsp;<em><strong>\\raspberrypi.local\shared_folder</strong></em>
+  </p>
+
+  <p>
+    &nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Entorno de desarrollo visual de conversaciones telefónicas</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/entorno-de-desarrollo-de-aplicaciones-para-callcenters/"/>
+        <id>https://enteropositivo.github.io/entorno-de-desarrollo-de-aplicaciones-para-callcenters/</id>
+            <category term="mis trabajos"/>
+            <category term="C#"/>
+
+        <updated>2022-06-17T10:02:32+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Descripción del proyecto Proyecto que desarrollé en C# usando el entorno de IDE OpenSource SharpDevelop El objetivo era crear entorno de desarrollo para programar de&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="descripcin-del-proyecto">
+      Descripción del proyecto
+    </h2>
+
+  <p>
+    Proyecto que desarrollé en <strong>C# </strong>usando el entorno de IDE <strong>OpenSource </strong>SharpDevelop
+  </p>
+
+  <p>
+    El objetivo era crear entorno de desarrollo para <strong>programar de forma visual aplicaciones&nbsp; teléfonicas</strong> que siguieran el flujo de posibles conversaciones de los usuarios (para call-centers)
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/4/proyecto_cargado.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/4/responsive/proyecto_cargado-xs.png 300w ,https://enteropositivo.github.io/media/posts/4/responsive/proyecto_cargado-sm.png 480w ,https://enteropositivo.github.io/media/posts/4/responsive/proyecto_cargado-md.png 768w"  height="628" width="707" alt="" />
+      
+    </figure>
+
+    <h2 id="partes-de-proyecto">
+      Partes de proyecto
+    </h2>
+
+  <p>
+    Los puntos críticos para desarrollar esta aplicación desde cero fueron <br>los siguientes.
+  </p>
+
+    <h3 id="diseo-de-una-interfaz-amigable">
+      Diseño de una Interfaz amigable
+    </h3>
+
+  <p>
+    Decidí crear una interfaz muy típica de entornos de desarrollo con: <br>&nbsp;- paneles acoplables por el usuario<br>&nbsp;- barra de herramientas&nbsp;<br>&nbsp;- menú de acciones<br>&nbsp;- área de trabajo<br><br>
+  </p>
+
+    <h3 id="rea-de-trabajo">
+      Área de trabajo
+    </h3>
+
+  <p>
+    Tal vez la más complicada ya que tuve que programar el comportamiento de los bloques que se arrastraban a este área, calcular cómo se dibujaría cada elemento y calcular cómo se colocarían las flechas que unen los bloques para formar un flujo de conversación<br>
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/4/toolbar.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/4/responsive/toolbar-xs.png 300w ,https://enteropositivo.github.io/media/posts/4/responsive/toolbar-sm.png 480w ,https://enteropositivo.github.io/media/posts/4/responsive/toolbar-md.png 768w"  height="628" width="707" alt="" />
+      
+    </figure>
+
+    <h3 id="subrutinas-y-variables">
+      Subrutinas y Variables
+    </h3>
+
+  <p>
+    Para facilitar la programación de la conversación,&nbsp; el programa también era capaz de generar subrutinas o bloques personalizados que a su vez contenían otros flujos internos.&nbsp; Una especie de programación orientada a objetos.<br><br>Y un sistema de variables del sistema o personalizables por el usuario añadiendo un intérprete de JavaScript para poder realizar funciones más complejas
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/4/config_vars.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/4/responsive/config_vars-xs.png 300w ,https://enteropositivo.github.io/media/posts/4/responsive/config_vars-sm.png 480w ,https://enteropositivo.github.io/media/posts/4/responsive/config_vars-md.png 768w"  height="628" width="707" alt="" />
+      
+    </figure>
+
+    <h3 id="motor-de-ejecucin">
+      Motor de ejecución
+    </h3>
+
+  <p>
+    Era el corazón de la aplicación donde se tenía que interpretar el flujo compuesto por todos los bloque emplazados por el usuario y realizar las acciones correspondientes.
+  </p>
+
+  <p>
+    También integraba un Text-to-Speech para poder hablar al usuario y/o repetir entradas de números que el usuario tecleaba en su teléfono.
+  </p>
+
+  <p>
+    Todo ello con una gestión interna para avisar al usuario de posibles errores.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/4/control_errores.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/4/responsive/control_errores-xs.png 300w ,https://enteropositivo.github.io/media/posts/4/responsive/control_errores-sm.png 480w ,https://enteropositivo.github.io/media/posts/4/responsive/control_errores-md.png 768w"  height="628" width="707" alt="" />
+      
+    </figure>
+
+    <h2 id="resumen">
+      Resumen
+    </h2>
+
+  <p>
+    Fue un proyecto muy interesante que requería la unión de muchos conocimientos técnicos:<br>
+  </p>
+
+  <ul>
+    <li>Gran capacidad de análisis de los requisitos del cliente</li><li>Estructurar correctamente el proyecto</li><li>Idear un diseño bonito pero a la vez usable de la aplicación</li><li>Organizar la estructura interna del proyecto en módulos</li><li>Programar cada módulo para que conseguir el resultado final</li>
+  </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Librería en C# para generar archivos swf de flash</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/"/>
+        <id>https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/</id>
+            <category term="mis trabajos"/>
+            <category term="C#"/>
+
+        <updated>2022-06-15T12:29:51+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Descripción del Proyecto SwfdotNet es una librería que programé en C# en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="descripcin-del-proyecto">
+      Descripción del Proyecto
+    </h2>
+
+  <p>
+    SwfdotNet es una librería que programé en <strong>C#</strong> en el 2005 para crear dinámicamente películas swf de flash desde .NET&nbsp;tanto en Windows como en Linux<br>
+<br>Está programada estudiando las especificaciones del formato SWF de Macromedia, por lo que las películas generadas eran compatibles con cualquier reproductor de swf de version 5 en adelante.
+  </p>
+
+  <p>
+    <strong><em></em></strong><strong><em>GitHub:</em></strong>&nbsp;<a href="https://github.com/enteropositivo/swf-dotnet" target="_blank">https://github.com/enteropositivo/swf-dotnet</a><a href="https://github.com/enteropositivo/swf-dotnet" target="_blank"></a>
+  </p>
+
+  <p>
+    
+  </p>
+
+    <h2 id="algunos-ejemplos-de-uso">
+      Algunos ejemplos de uso
+    </h2>
+
+  <p>
+    A continuación muestro algunos ejemplos seleccionados de lo que se puede hacer con esta librería.
+  </p>
+
+    <h3 id="rectngulo-con-relleno-degradado">
+      Rectángulo con relleno degradado
+    </h3>
+<pre class="line-numbers  language-csharp"><code>Rectangle Rct = new Rectangle(6000, 2000, 400);      //- ancho, alto, radio
+            
+Rct.LineStyle =new LineStyle(new RGB(255,153,0), 4); //-Estilo de linea (grosor 4)
+            
+//-Creación del gradiente, permite varios colores
+Gradient G = new Gradient(GradientType.LinearGradient,-45); //-Lo haremos lineal inclinado 45º
+G.AddColor(new RGB(255,255,224), 0);                        //-Primer color en posición 0
+G.AddColor(new RGB(255,204,0), 255);                        //-Segundo color en posición 255
+                        
+Rct.FillStyle = new FillStyle(G);     //-Relleno con el gradiente creado
+    
+Movie movie = new Movie(6400, 2400,new RGB(153,153,255));
+movie.Define(Rct);
+movie.Frames[1].Add(Rct);             //-Emplazo al rectángulo en el primer fotograma 
+movie.SaveToFile(@"ejemplo2.swf");    //-Genero el SWF
+</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo2.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/3/responsive/ejemplo2-xs.png 300w ,https://enteropositivo.github.io/media/posts/3/responsive/ejemplo2-sm.png 480w ,https://enteropositivo.github.io/media/posts/3/responsive/ejemplo2-md.png 768w"  height="117" width="315" alt="" />
+      
+    </figure>
+<hr class="separator separator--dots" />
+
+    <h3 id="cmo-incrustar-imgenes">
+      Cómo incrustar imágenes
+    </h3>
+<pre class="line-numbers  language-csharp"><code>Rectangle Rct = new Rectangle(2400,    2400, 400);
+Rct.LineStyle =new LineStyle(new RGB(255,153,0), 4);
+            
+TagDefineBitsJPEG2 jpeg = new TagDefineBitsJPEG2("pin.jpg");   //-Defino la imagen        
+                                
+Rct.FillStyle = new FillStyle(jpeg, BitmapFill.ClippedBitmap); //-Lo relleno con el jpeg
+
+Movie movie = new Movie(4000, 4000,new RGB(153,153,255));
+movie.FrameRate=12;
+            
+movie.Define(jpeg);           //- Añadimos la imagen e la Librería de objetos de la película 
+movie.Define(Rct);
+    
+Matrix mx = new Matrix();     //-Matriz de transformación para manipular objetos
+mx.Tanslate(1400,400);        //-Traslado el objeto 
+mx.Rotate(-30);               //-Lo roto -30º
+            
+movie.Frames[1].Add(Rct, mx); //-Lo añado y le aplico la transformacion
+           
+movie.SaveToFile(@"ejemplo4.swf");</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo4.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/3/responsive/ejemplo4-xs.png 300w ,https://enteropositivo.github.io/media/posts/3/responsive/ejemplo4-sm.png 480w ,https://enteropositivo.github.io/media/posts/3/responsive/ejemplo4-md.png 768w"  height="190" width="183" alt="" />
+      
+    </figure>
+<hr class="separator separator--dots" />
+
+    <h3 id="creacin-de-una-forma-vectorial-personalizada">
+      Creación de una forma vectorial personalizada
+    </h3>
+<pre class="line-numbers  language-csharp"><code>Gradient G = new Gradient(GradientType.LinearGradient,-45);
+G.AddColor(new RGB(255,255,255), 0);
+G.AddColor(new RGB(153,0,0), 255);
+        
+LineTool shap = new LineTool(); //-Objeto de forma personalizada
+
+//- Le añado el estilo de línea y relleno
+shap.LineStyles.Add(new LineStyle(new RGB(91,0,0),0));
+shap.FillStyles.Add(new FillStyle(G));
+            
+//- Establezco el estilo de linea y de relleno anteriores    
+//  Nota: Por defecto ya vienen con un estilo por tanto asigno estilos con índice 2 en la lista de estilos
+shap.SetStyle(2,2);            
+            
+shap.HorizontalTo(6000);    //- Horizontal 6000 Twips a la derecha
+shap.LineTo(200,-200);      //- Linea hasta la posición x=200 y=-200
+shap.HorizontalTo(600);     //- Una pequeña horizontal 600 Twips a la derecha
+shap.VerticalTo(3200);      //- 3200 Twips hacia abajo
+            
+shap.CurveTo(-800,0,0,800); //- Curva indicada por 3 puntos(el último trazado y estos 2 nuevos) 
+            
+shap.HorizontalTo(-5800);   //-Horizontal 5800 hacia la izquierda
+shap.LineTo(-200,-200);     //- una pequeñaa muesca en la esquina
+shap.VerticalTo(-3600);     //- Y cerramos la forma subiendo hasta el inicio
+            
+Movie movie = new Movie(7200, 4600,new RGB(153,153,255));
+movie.Define(shap);
+            
+movie.Frames[1].Add(shap);    
+movie.SaveToFile(@"ejemplo5.swf");</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo5.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/3/responsive/ejemplo5-xs.png 300w ,https://enteropositivo.github.io/media/posts/3/responsive/ejemplo5-sm.png 480w ,https://enteropositivo.github.io/media/posts/3/responsive/ejemplo5-md.png 768w"  height="218" width="352" alt="" />
+      
+    </figure>
+<hr class="separator separator--dots" />
+
+    <h3 id="botn-con-3-estados-diferentes-reposo-hover-y-clickbr">
+      Botón con 3 estados diferentes (reposo, hover y click)<br>
+    </h3>
+<pre class="line-numbers  language-csharp"><code>Gradient G = new Gradient(GradientType.LinearGradient,-45);
+G.AddColor(new RGB(255,255,255), 0);
+G.AddColor(new RGB(20,0,125), 255);
+        
+//- Estado del botón en reposo
+Rectangle rct = new Rectangle(2000,2000,400);
+rct.LineStyle =new LineStyle(new RGB(0,50,100),4);
+rct.FillStyle= new FillStyle(G);        //- Relleno con el gradiente creado
+            
+//- Estado del botón en Hover
+Rectangle rctOn = new Rectangle(2000,2000,400);
+rctOn.LineStyle =new LineStyle(new RGB(238,221,34),4);
+rctOn.FillStyle= new FillStyle(G);        //- Relleno con el gradiente creado
+            
+//- Estado del botón en Mouse Down
+Rectangle rctPush = new Rectangle(2000,2000,400);
+rctPush.LineStyle =new LineStyle(new RGB(238,221,34),4);
+rctPush.FillStyle= new FillStyle(new RGB(238,221,34));
+            
+//- Creo el botón y le asigno los estados creados
+TagDefineButton btn = new TagDefineButton();        
+btn.Up=rct;
+btn.Over=rctOn;
+btn.Hit=rct;
+btn.Down=rctPush;
+            
+Movie movie = new Movie(2400, 2400,new RGB(153,153,255));
+            
+movie.Define(rct);        //- Como siempre en flash, cada elemento debe definirse en la libreria
+movie.Define(rctOn);
+movie.Define(rctPush);
+movie.Define(btn);
+            
+movie.Frames[1].Add(btn);    
+movie.SaveToFile(@"ejemplo8.swf");
+
+</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo8.gif" height="157" width="272" alt="" />
+      
+    </figure>
+<hr class="separator separator--dots" />
+
+    <h3 id="ventana-con-un-botn-para-abrir-o-cerrarla">
+      Ventana con un botón para abrir o cerrarla
+    </h3>
+
+  <p>
+    El siguiente ejemplo es muy completo ya que también programe la librería para que aceptase código de <strong>ActionScript </strong>y así poder crear objetos dinámicos o que respondan a eventos.<br>
+  </p>
+<pre class="line-numbers  language-csharp"><code>Movie movie = new Movie(6900, 4200,new RGB(255,255,255));
+movie.FrameRate=1;
+
+Gradient G = new Gradient(GradientType.LinearGradient,-45);
+G.AddColor(new RGB(255,255,255), 0);
+G.AddColor(new RGB(153,0,0), 255);
+        
+//- Forma de la venta cerrada 
+LineTool Cerrada = new LineTool();    
+Cerrada.LineStyles.Add(new LineStyle(new RGB(100,100,100),0));
+Cerrada.FillStyles.Add(new FillStyle(G));
+
+Cerrada.SetStyle(2,2);        //-Asigno los nuevos estilos añadidos    
+Cerrada.HorizontalTo(6000);
+Cerrada.LineTo(200,-200);
+Cerrada.HorizontalTo(600);
+Cerrada.VerticalTo(800);
+Cerrada.HorizontalTo(-6600);
+Cerrada.LineTo(-200,-200);
+Cerrada.VerticalTo(-400);
+
+
+LineTool Abierta = new LineTool();
+Abierta.LineStyles.Add(new LineStyle(new RGB(100,100,100),0));
+Abierta.FillStyles.Add(new FillStyle(G));
+
+Abierta.SetStyle(2,2);        //-Asigno los nuevos estilos añadidos
+Abierta.HorizontalTo(6000);
+Abierta.LineTo(200,-200);
+Abierta.HorizontalTo(600);
+Abierta.VerticalTo(3200);
+Abierta.CurveTo(-800,0,0,800);
+Abierta.HorizontalTo(-5800);
+Abierta.LineTo(-200,-200);
+Abierta.VerticalTo(-3600);
+    
+
+Rectangle rct = new Rectangle(200,200,2);        //- Botón en reposo
+rct.LineStyle =new LineStyle(new RGB(255,255,255),0);
+rct.FillStyle= new FillStyle(G);
+
+Rectangle rctOn = new Rectangle(200,200,2);      //- Botón Activo
+rctOn.LineStyle =new LineStyle(new RGB(238,221,34),2);
+rctOn.FillStyle= new FillStyle(G);
+
+TagDefineButton boton = new TagDefineButton();
+boton.Up=rct;
+boton.Over=rctOn;
+boton.Hit=rct;
+boton.Down=rct;
+        
+//- Creo un nuevo movie clip que representa la Ventana
+DefineSprite ventana = new DefineSprite();
+
+ventana.Frames[1].Add(Cerrada);
+ventana.Frames[1].Script.Stop();    //-Stop() en este frame para evitar un bucle
+ventana.Frames[2].Remove(Cerrada);  //-En el 2º frame solo debe estar la ventana Abierta
+ventana.Frames[2].Add(Abierta);
+
+//- ActionScript -&gt;   var open;
+ventana.Frames[1].Script.Push("open");  //-Meto en la pila el nomrbre de la variable
+ventana.Frames[1].Script.DefineVar();   //-Creo una variable con lo que tenga en la pila
+
+//- ActionScript -&gt;   open=false;
+ventana.Frames[1].Script.Push("open");
+ventana.Frames[1].Script.Push(0);
+ventana.Frames[1].Script.SetVar();
+
+boton.Script.TellTarget("WINDOW");    //-Llamo al simbolo por el nombre 
+
+//- ActionScript -&gt;   open=!open;     Para alternar x entre True y False
+boton.Script.Push("open");    //-  Añado a la pila X Para cuando llame a SetVar
+boton.Script.Push("open");    //-     Añado a la pila X para recoger el valor de x con GetVar  
+boton.Script.GetVar();        //-  Saco de la pila x y GetVar mete su valor correspondiente
+boton.Script.Not();           //-  Niego el valor que haya en la pila (el obtenido con GetVar)
+boton.Script.SetVar();        //-  Y se lo asigno a la variable que hubiera en la pila (la 1ª x)
+
+//-    ActionScript -&gt;   if(open==true)
+boton.Script.Push(1);        //-  Para comparar con Equal
+boton.Script.Push("open");   //- Quiero obtener el valor de la variable x
+boton.Script.GetVar();       //- Obtengo el valor
+boton.Script.Equal();        //- Para usar con la instruccion IF
+boton.Script.If();           //- Tengo en la pila un valor verdadero??
+boton.Script.gotoAndStop(2);  //- Me muevo al frame del sprite que tenía la ventana abierta
+boton.Script.Else();
+boton.Script.gotoAndStop(1);  //- Cierro la ventana
+boton.Script.EndIf();
+    
+//- Librerá de simbolos de la película    
+movie.Define(Abierta);
+movie.Define(Cerrada);
+movie.Define(rct);
+movie.Define(rctOn);
+movie.Define(boton);
+movie.Define(ventana);
+
+movie.Frames[1].Add(ventana, "WINDOW");    //- Añado el Sprite y le asigno el Nombre de la Instancia
+Matrix mx = new Matrix();
+mx.Tanslate(6200,0);
+movie.Frames[1].Add(boton,mx);             //- Añado el botón en la posición indicada por mx
+
+movie.SaveToFile(@"ejemplo9.swf");
+</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/3/ejemplo9.gif" height="210" width="355" alt="" />
+      
+    </figure>
+<hr class="separator separator--dots" />
+
+    <h3 id="generar-swf-desde-aspnet">
+      Generar SWF desde ASP.NET
+    </h3>
+<pre class="line-numbers  language-csharp"><code>&lt;%@ Page Language="C#" %&gt;
+&lt;%@ Register TagPrefix="SDN" Namespace="SwfdotNet" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFB" Namespace="SwfdotNet.Format.BasicTypes" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFS" Namespace="SwfdotNet.Format.Shapes" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFT" Namespace="SwfdotNet.Format.Tags" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNFU" Namespace="SwfdotNet.Format.UtilTypes" Assembly="SwfdotNet" %&gt;
+&lt;%@ Register TagPrefix="SDNS" Namespace="SwfdotNet.Shapes" Assembly="SwfdotNet" %&gt;
+&lt;%
+
+
+//    Uso de gradientes para relleno
+Rectangle Rct = new Rectangle(6000,    2000, 400);
+
+Rct.LineStyle =new LineStyle(new RGB(255,153,0), 4);
+
+//-Creación del gradiente, permite varios colores
+Gradient G = new Gradient(GradientType.LinearGradient,-45);     //-Lo haremos lineal inclinado 45º
+G.AddColor(new RGB(255,255,224), 0);                            //-Primer color en posición 0
+G.AddColor(new RGB(255,204,0), 255);                            //-Segundo color en posicón 255
+
+//-Relleno con el gradiente creado
+Rct.FillStyle = new FillStyle(G);         
+
+Movie movie = new Movie(7000, 4000,new RGB(153,153,255));
+movie.Define(Rct);
+movie.Frames[1].Add(Rct);    
+
+Response.Clear(); 
+
+//- Establecemos los tipos MIME para que el navegador sepa que es un swf
+Response.AddHeader( "Content-Type", "application/x-shockwave-flash");
+Response.AddHeader( "Content-Disposition", "inline;filename=ejemplo7.swf");
+
+Response.BinaryWrite(movie.GetBytes);    // &lt;-- Lanzamos el contenido del swf al navegador !!
+ 
+
+//---- Archivo ejemplo7.aspx ----\\
+%&gt;</code></pre>
+            ]]>
+        </content>
+    </entry>
+</feed>
