@@ -3,7 +3,7 @@
     <title>Entero Positivo</title>
     <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
     <link href="https://enteropositivo.github.io" />
-    <updated>2022-06-27T10:38:17+02:00</updated>
+    <updated>2022-06-27T11:35:07+02:00</updated>
     <author>
         <name>Entero Positivo</name>
     </author>
@@ -20,14 +20,16 @@
             <category term="raspberry pi"/>
             <category term="Blog"/>
 
-        <updated>2022-06-27T10:38:17+02:00</updated>
+        <updated>2022-06-27T11:35:07+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://enteropositivo.github.io/media/posts/12/jtag_sw_to_cmsis-2.jpg" alt="" />
                     Descripción&nbsp; Si tenemos un depurados/grabador&nbsp; ST-LINK/&nbsp; V1-V2&nbsp; o un clon,&nbsp; podemos convertirlo en un depurador tipo DAPLink,&nbsp; para usarlo con cualquier tipo de placas cuyo&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://enteropositivo.github.io/media/posts/12/jtag_sw_to_cmsis-2.jpg" alt="" />
                 
     <h2 id="descripcinnbsp">
       Descripción&nbsp;
