@@ -3,7 +3,7 @@
     <title>Entero Positivo</title>
     <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
     <link href="https://enteropositivo.github.io" />
-    <updated>2022-06-27T11:35:07+02:00</updated>
+    <updated>2022-06-27T11:51:27+02:00</updated>
     <author>
         <name>Entero Positivo</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="raspberry pi"/>
             <category term="Blog"/>
 
-        <updated>2022-06-27T11:35:07+02:00</updated>
+        <updated>2022-06-27T11:51:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://enteropositivo.github.io/media/posts/12/jtag_sw_to_cmsis-2.jpg" alt="" />
@@ -47,17 +47,8 @@
       Pasos&nbsp;
     </h2>
 
-    <h3 id="disponer-de-un-grabador-stlink-o-compatible">
-      Disponer de un grabador ST-LINK o compatible
-    </h3>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/12/jtag_sw_to_cmsis.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/12/responsive/jtag_sw_to_cmsis-xs.jpg 300w ,https://enteropositivo.github.io/media/posts/12/responsive/jtag_sw_to_cmsis-sm.jpg 480w ,https://enteropositivo.github.io/media/posts/12/responsive/jtag_sw_to_cmsis-md.jpg 768w"  height="274" width="702" alt="" />
-      
-    </figure>
-
-    <h3 id="conectarlo-con-nuestra-placa">
-      Conectarlo con nuestra placa
+    <h3 id="conectarlo-el-stlink-a-nuestra-placa">
+      Conectarlo el ST-LINK a nuestra placa
     </h3>
 
   <p>
