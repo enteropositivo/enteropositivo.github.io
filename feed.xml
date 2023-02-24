@@ -3,12 +3,67 @@
     <title>Entero Positivo</title>
     <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
     <link href="https://enteropositivo.github.io" />
-    <updated>2022-06-27T11:51:27+02:00</updated>
+    <updated>2023-02-24T20:17:42+01:00</updated>
     <author>
         <name>Entero Positivo</name>
     </author>
     <id>https://enteropositivo.github.io</id>
 
+    <entry>
+        <title>Diseño de un lenguaje de programación  de robots EPLang</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/diseno-de-un-lenguaje-de-programacion-de-robots-eplang/"/>
+        <id>https://enteropositivo.github.io/diseno-de-un-lenguaje-de-programacion-de-robots-eplang/</id>
+            <category term="visual basic"/>
+            <category term="mis trabajos"/>
+            <category term="C/C++"/>
+
+        <updated>2023-02-24T20:17:42+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Descripción del proyecto Este proyecto lo creé en el año 1999.&nbsp; La idea era crear un lenguaje de programación para poder accionar robots o periféricos&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="descripcin-del-proyecto">
+      Descripción del proyecto
+    </h2>
+
+  <p>
+    Este proyecto lo creé en el <strong>año 1999</strong>.&nbsp; <br><br>La idea era crear un lenguaje de programación para poder accionar robots o periféricos conectados en el puerto paralelo del ordenador, pudiendo controlar 8 salidas de una forma sencilla y teniendo a disposición las 8 entradas del puerto.&nbsp;
+  </p>
+
+  <p>
+    Por aquella época todavía no existía Arduino y necesitaba poder programar dispositivos electrónicos o mini-autómatas de una forma sencilla y por ese motivo creé el lenguaje EPLang con su entorno de desarrollo.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///P:/publii/sites/entero-positivo/input/media/posts/temp/ejemplo_0.gif" height="660" width="650" alt="" />
+      
+    </figure>
+
+    <h3 id="partes-del-proyecto">
+      Partes del proyecto
+    </h3>
+
+  <ul>
+    <li>Diseño del léxico y parser de un lenguaje de programación fácil de comprender&nbsp;</li><li>Creación de un entorno de desarrollo donde poder escribir dicho lenguaje</li><li>Intérprete visual de la ejecución del lenguaje escrito.</li><li>Creación de una librería .dll en c++ para poder ejecutar el mismo código en un entorno real a través del puerto paralelo del ordenador.</li>
+  </ul>
+
+    <h3 id="algunos-ejemplos-de-cdigo">
+      Algunos ejemplos de código
+    </h3>
+
+  <p>
+    (.. en breve..)
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>DAPLink bootloader en ST-LINK</title>
         <author>
@@ -583,7 +638,7 @@ wins support = yes</code></pre>
         <link href="https://enteropositivo.github.io/entorno-de-desarrollo-de-aplicaciones-para-callcenters/"/>
         <id>https://enteropositivo.github.io/entorno-de-desarrollo-de-aplicaciones-para-callcenters/</id>
             <category term="mis trabajos"/>
-            <category term="C#"/>
+            <category term="CSharp"/>
 
         <updated>2022-06-17T10:02:32+02:00</updated>
             <summary>
@@ -696,7 +751,7 @@ wins support = yes</code></pre>
         <link href="https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/"/>
         <id>https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/</id>
             <category term="mis trabajos"/>
-            <category term="C#"/>
+            <category term="CSharp"/>
 
         <updated>2022-06-15T12:29:51+02:00</updated>
             <summary>
