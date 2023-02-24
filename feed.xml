@@ -3,7 +3,7 @@
     <title>Entero Positivo</title>
     <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
     <link href="https://enteropositivo.github.io" />
-    <updated>2023-02-24T20:17:42+01:00</updated>
+    <updated>2023-02-24T20:35:22+01:00</updated>
     <author>
         <name>Entero Positivo</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="mis trabajos"/>
             <category term="C/C++"/>
 
-        <updated>2023-02-24T20:17:42+01:00</updated>
+        <updated>2023-02-24T20:35:22+01:00</updated>
             <summary>
                 <![CDATA[
                     Descripción del proyecto Este proyecto lo creé en el año 1999.&nbsp; La idea era crear un lenguaje de programación para poder accionar robots o periféricos&hellip;
@@ -38,11 +38,11 @@
   </p>
 
   <p>
-    Por aquella época todavía no existía Arduino y necesitaba poder programar dispositivos electrónicos o mini-autómatas de una forma sencilla y por ese motivo creé el lenguaje EPLang con su entorno de desarrollo.
+    Por aquella época todavía no existía Arduino y necesitaba poder programar dispositivos electrónicos o mini-autómatas de una forma sencilla y por ese motivo creé el lenguaje EPLang con su entorno de desarrollo.<br><br><br>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="file:///P:/publii/sites/entero-positivo/input/media/posts/temp/ejemplo_0.gif" height="660" width="650" alt="" />
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/13/ejemplo_0.gif" height="660" width="650" alt="" />
       
     </figure>
 
