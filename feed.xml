@@ -3,7 +3,7 @@
     <title>Entero Positivo</title>
     <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
     <link href="https://enteropositivo.github.io" />
-    <updated>2023-02-24T20:35:22+01:00</updated>
+    <updated>2023-02-26T09:54:52+01:00</updated>
     <author>
         <name>Entero Positivo</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="mis trabajos"/>
             <category term="C/C++"/>
 
-        <updated>2023-02-24T20:35:22+01:00</updated>
+        <updated>2023-02-26T09:54:52+01:00</updated>
             <summary>
                 <![CDATA[
                     Descripción del proyecto Este proyecto lo creé en el año 1999.&nbsp; La idea era crear un lenguaje de programación para poder accionar robots o periféricos&hellip;
@@ -38,7 +38,7 @@
   </p>
 
   <p>
-    Por aquella época todavía no existía Arduino y necesitaba poder programar dispositivos electrónicos o mini-autómatas de una forma sencilla y por ese motivo creé el lenguaje EPLang con su entorno de desarrollo.<br><br><br>
+    Por aquella época todavía no existía Arduino y necesitaba poder programar dispositivos electrónicos o mini-autómatas de una forma sencilla y por ese motivo <strong>creé el lenguaje EPLang con su entorno de desarrollo</strong>.<br><br><br>
   </p>
 
     <figure class="post__image post__image--center">
@@ -46,21 +46,69 @@
       
     </figure>
 
-    <h3 id="partes-del-proyecto">
+    <h2 id="partes-del-proyecto">
       Partes del proyecto
-    </h3>
+    </h2>
 
   <ul>
     <li>Diseño del léxico y parser de un lenguaje de programación fácil de comprender&nbsp;</li><li>Creación de un entorno de desarrollo donde poder escribir dicho lenguaje</li><li>Intérprete visual de la ejecución del lenguaje escrito.</li><li>Creación de una librería .dll en c++ para poder ejecutar el mismo código en un entorno real a través del puerto paralelo del ordenador.</li>
   </ul>
 
-    <h3 id="algunos-ejemplos-de-cdigo">
-      Algunos ejemplos de código
-    </h3>
+  <p>
+    Tanto el entorno de desarrollo como el lenguaje de programación están realizados en <strong>Visual Basic 6</strong>
+  </p>
 
   <p>
-    (.. en breve..)
+    La librería .dll que ejecutaba en tiempo real el programa en el puerto paralelo del PC la hice en <strong>Visual C++</strong>
   </p>
+
+  <p>
+    
+  </p>
+
+    <h2 id="algunos-ejemplos-de-cdigo">
+      Algunos ejemplos de código
+    </h2>
+
+  <p>
+    A continuación muestro algunos ejemplos de código que resumen de lo que se podía hacer en este lenguaje
+  </p>
+
+    <h3 id="ejemplo-blink-sencillo-en-2-lneas-de-salida">
+      Ejemplo blink sencillo en 2 líneas de salida
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/13/codigo1.PNG" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/13/responsive/codigo1-xs.PNG 300w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo1-sm.PNG 480w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo1-md.PNG 768w"  height="440" width="616" alt="" />
+      
+    </figure>
+
+    <h3 id="ejemplo-de-blink-usando-timers-y-eventos-de-entradabr">
+      Ejemplo de blink usando Timers y eventos de entrada<br>
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/13/codigo2.PNG" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/13/responsive/codigo2-xs.PNG 300w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo2-sm.PNG 480w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo2-md.PNG 768w"  height="498" width="592" alt="" />
+      
+    </figure>
+
+    <h3 id="bucles-y-condicionales">
+      Bucles y condicionales
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/13/codigo3.PNG" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/13/responsive/codigo3-xs.PNG 300w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo3-sm.PNG 480w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo3-md.PNG 768w"  height="432" width="519" alt="" />
+      
+    </figure>
+
+    <h3 id="multitarea">
+      Multitarea
+    </h3>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://enteropositivo.github.io/media/posts/13/codigo4.PNG" sizes="(max-width: 768px) 100vw, 768px" srcset="https://enteropositivo.github.io/media/posts/13/responsive/codigo4-xs.PNG 300w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo4-sm.PNG 480w ,https://enteropositivo.github.io/media/posts/13/responsive/codigo4-md.PNG 768w"  height="716" width="483" alt="" />
+      
+    </figure>
             ]]>
         </content>
     </entry>
