@@ -3,7 +3,7 @@
     <title>Entero Positivo</title>
     <link href="https://enteropositivo.github.io/feed.xml" rel="self" />
     <link href="https://enteropositivo.github.io" />
-    <updated>2023-02-26T09:54:52+01:00</updated>
+    <updated>2023-07-25T08:21:09+02:00</updated>
     <author>
         <name>Entero Positivo</name>
     </author>
@@ -219,17 +219,17 @@
         </content>
     </entry>
     <entry>
-        <title>Sobre me / About me</title>
+        <title>Contacto</title>
         <author>
             <name>Entero Positivo</name>
         </author>
         <link href="https://enteropositivo.github.io/sobre-me-about-me/"/>
         <id>https://enteropositivo.github.io/sobre-me-about-me/</id>
 
-        <updated>2022-06-17T13:01:32+02:00</updated>
+        <updated>2023-07-25T08:21:09+02:00</updated>
             <summary>
                 <![CDATA[
-                    Contacto Twitter:&nbsp;https://twitter.com/EnteroPositivoGitHub:&nbsp;https://github.com/enteropositivoGists:&nbsp;https://gist.github.com/enteropositivoMedium:&nbsp;https://enteropositivo.medium.comGMail:&nbsp; enteropositivo Domino los siguientes lenguajes de programación C/C++C#JavaJavaScriptPhpLuaPythonVisual BasicRust Tecnologías Aplicaciones de escritorioDesarrollo de libreríasWeb frontend/backend, html/cssProgramación de sistemas embebidosNodeJSAplicaciones multiplataforma Dispositivos y&hellip;
+                    Contacto Twitter:&nbsp;https://twitter.com/EnteroPositivoGitHub:&nbsp;https://github.com/enteropositivoGists:&nbsp;https://gist.github.com/enteropositivoMedium:&nbsp;https://enteropositivo.medium.comGMail:&nbsp; enteropositivo
                 ]]>
             </summary>
         <content type="html">
@@ -243,29 +243,9 @@
     <li><strong>Twitter:</strong>&nbsp;<a href="https://twitter.com/EnteroPositivo" target="_blank">https://twitter.com/EnteroPositivo</a></li><li><strong>GitHub:</strong>&nbsp;<a href="https://github.com/enteropositivo">https://github.com/enteropositivo</a></li><li><strong>Gists:</strong>&nbsp;<a href="https://gist.github.com/enteropositivo" target="_blank">https://gist.github.com/enteropositivo</a></li><li><strong>Medium:</strong>&nbsp;<a href="https://enteropositivo.medium.com" target="_blank">https://enteropositivo.medium.com</a></li><li><strong>GMail:</strong>&nbsp; enteropositivo</li>
   </ul>
 
-    <h2 id="domino-los-siguientes-lenguajes-de-programacin">
-      Domino los siguientes lenguajes de programación
-    </h2>
-
-  <ul>
-    <li>C/C++</li><li>C#</li><li>Java</li><li>JavaScript</li><li>Php</li><li>Lua</li><li>Python</li><li>Visual Basic</li><li>Rust</li>
-  </ul>
-
-    <h2 id="tecnologas">
-      Tecnologías
-    </h2>
-
-  <ul>
-    <li>Aplicaciones de escritorio</li><li>Desarrollo de librerías</li><li>Web frontend/backend, html/css</li><li>Programación de sistemas embebidos</li><li>NodeJS</li><li>Aplicaciones multiplataforma</li>
-  </ul>
-
-    <h2 id="dispositivos-y-plataformas">
-      Dispositivos y plataformas
-    </h2>
-
-  <ul>
-    <li>Windows / Linux / Android</li><li>Arduino</li><li>micro:bit</li><li>Raspberry Pi</li><li>Stm32</li>
-  </ul>
+  <p>
+    
+  </p>
             ]]>
         </content>
     </entry>
@@ -788,6 +768,40 @@ wins support = yes</code></pre>
   <ul>
     <li>Gran capacidad de análisis de los requisitos del cliente</li><li>Estructurar correctamente el proyecto</li><li>Idear un diseño bonito pero a la vez usable de la aplicación</li><li>Organizar la estructura interna del proyecto en módulos</li><li>Programar cada módulo para que conseguir el resultado final</li>
   </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Inicio</title>
+        <author>
+            <name>Entero Positivo</name>
+        </author>
+        <link href="https://enteropositivo.github.io/principal/"/>
+        <id>https://enteropositivo.github.io/principal/</id>
+
+        <updated>2023-07-25T08:18:56+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Me I am an electronic engineer and a developer with over 20 years of expertise working with various languages and platforms. I have served as&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Me </h2>
+<p>I am an electronic engineer and a developer with over 20 years of expertise working with various languages and platforms. I have served as a project manager for large software projects and collaborate as a freelancer with several companies.</p>
+<h2>Programming languages</h2>
+<p>C# · C++ · Python · JavaScript · ActionScript · Lua · Rust · PHP</p>
+<h2>Skills</h2>
+<ul>
+<li>Web development</li>
+<li>Desktop software </li>
+<li>Backend/Frontend</li>
+<li>Game development</li>
+<li>Embedded systems (Arduino, ESP32, STM32, Raspberry Pi, ...)</li>
+<li>Conceptualization of solutions for large projects</li>
+</ul>
+<p> </p>
+<p> </p>
             ]]>
         </content>
     </entry>

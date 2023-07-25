@@ -5,7 +5,7 @@
     "home_page_url": "https://enteropositivo.github.io",
     "feed_url": "https://enteropositivo.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://enteropositivo.github.io/media/website/ep-3.png",
+    "icon": "https://enteropositivo.github.io/media/website/avatar.png",
     "author": {
         "name": "Entero Positivo"
     },
@@ -48,16 +48,16 @@
         {
             "id": "https://enteropositivo.github.io/sobre-me-about-me/",
             "url": "https://enteropositivo.github.io/sobre-me-about-me/",
-            "title": "Sobre me / About me",
-            "summary": "Contacto Twitter:&nbsp;https://twitter.com/EnteroPositivoGitHub:&nbsp;https://github.com/enteropositivoGists:&nbsp;https://gist.github.com/enteropositivoMedium:&nbsp;https://enteropositivo.medium.comGMail:&nbsp; enteropositivo Domino los siguientes lenguajes de programación C/C++C#JavaJavaScriptPhpLuaPythonVisual BasicRust Tecnologías Aplicaciones de escritorioDesarrollo de libreríasWeb frontend/backend, html/cssProgramación de sistemas embebidosNodeJSAplicaciones multiplataforma Dispositivos y&hellip;",
-            "content_html": "\n    <h2 id=\"contacto\">\n      Contacto\n    </h2>\n\n  <ul>\n    <li><strong>Twitter:</strong>&nbsp;<a href=\"https://twitter.com/EnteroPositivo\" target=\"_blank\">https://twitter.com/EnteroPositivo</a></li><li><strong>GitHub:</strong>&nbsp;<a href=\"https://github.com/enteropositivo\">https://github.com/enteropositivo</a></li><li><strong>Gists:</strong>&nbsp;<a href=\"https://gist.github.com/enteropositivo\" target=\"_blank\">https://gist.github.com/enteropositivo</a></li><li><strong>Medium:</strong>&nbsp;<a href=\"https://enteropositivo.medium.com\" target=\"_blank\">https://enteropositivo.medium.com</a></li><li><strong>GMail:</strong>&nbsp; enteropositivo</li>\n  </ul>\n\n    <h2 id=\"domino-los-siguientes-lenguajes-de-programacin\">\n      Domino los siguientes lenguajes de programación\n    </h2>\n\n  <ul>\n    <li>C/C++</li><li>C#</li><li>Java</li><li>JavaScript</li><li>Php</li><li>Lua</li><li>Python</li><li>Visual Basic</li><li>Rust</li>\n  </ul>\n\n    <h2 id=\"tecnologas\">\n      Tecnologías\n    </h2>\n\n  <ul>\n    <li>Aplicaciones de escritorio</li><li>Desarrollo de librerías</li><li>Web frontend/backend, html/css</li><li>Programación de sistemas embebidos</li><li>NodeJS</li><li>Aplicaciones multiplataforma</li>\n  </ul>\n\n    <h2 id=\"dispositivos-y-plataformas\">\n      Dispositivos y plataformas\n    </h2>\n\n  <ul>\n    <li>Windows / Linux / Android</li><li>Arduino</li><li>micro:bit</li><li>Raspberry Pi</li><li>Stm32</li>\n  </ul>",
+            "title": "Contacto",
+            "summary": "Contacto Twitter:&nbsp;https://twitter.com/EnteroPositivoGitHub:&nbsp;https://github.com/enteropositivoGists:&nbsp;https://gist.github.com/enteropositivoMedium:&nbsp;https://enteropositivo.medium.comGMail:&nbsp; enteropositivo",
+            "content_html": "\n    <h2 id=\"contacto\">\n      Contacto\n    </h2>\n\n  <ul>\n    <li><strong>Twitter:</strong>&nbsp;<a href=\"https://twitter.com/EnteroPositivo\" target=\"_blank\">https://twitter.com/EnteroPositivo</a></li><li><strong>GitHub:</strong>&nbsp;<a href=\"https://github.com/enteropositivo\">https://github.com/enteropositivo</a></li><li><strong>Gists:</strong>&nbsp;<a href=\"https://gist.github.com/enteropositivo\" target=\"_blank\">https://gist.github.com/enteropositivo</a></li><li><strong>Medium:</strong>&nbsp;<a href=\"https://enteropositivo.medium.com\" target=\"_blank\">https://enteropositivo.medium.com</a></li><li><strong>GMail:</strong>&nbsp; enteropositivo</li>\n  </ul>\n\n  <p>\n    \n  </p>",
             "author": {
                 "name": "Entero Positivo"
             },
             "tags": [
             ],
             "date_published": "2022-06-17T13:00:49+02:00",
-            "date_modified": "2022-06-17T13:01:32+02:00"
+            "date_modified": "2023-07-25T08:21:09+02:00"
         },
         {
             "id": "https://enteropositivo.github.io/extension-para-mostrar-numeros-hasta-99999-con-microbit/",
@@ -139,6 +139,20 @@
             ],
             "date_published": "2022-05-07T20:23:10+02:00",
             "date_modified": "2022-06-17T10:02:32+02:00"
+        },
+        {
+            "id": "https://enteropositivo.github.io/principal/",
+            "url": "https://enteropositivo.github.io/principal/",
+            "title": "Inicio",
+            "summary": "Me I am an electronic engineer and a developer with over 20 years of expertise working with various languages and platforms. I have served as&hellip;",
+            "content_html": "<h2>Me </h2>\n<p>I am an electronic engineer and a developer with over 20 years of expertise working with various languages and platforms. I have served as a project manager for large software projects and collaborate as a freelancer with several companies.</p>\n<h2>Programming languages</h2>\n<p>C# · C++ · Python · JavaScript · ActionScript · Lua · Rust · PHP</p>\n<h2>Skills</h2>\n<ul>\n<li>Web development</li>\n<li>Desktop software </li>\n<li>Backend/Frontend</li>\n<li>Game development</li>\n<li>Embedded systems (Arduino, ESP32, STM32, Raspberry Pi, ...)</li>\n<li>Conceptualization of solutions for large projects</li>\n</ul>\n<p> </p>\n<p> </p>",
+            "author": {
+                "name": "Entero Positivo"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-05-06T18:38:03+02:00",
+            "date_modified": "2023-07-25T08:18:56+02:00"
         },
         {
             "id": "https://enteropositivo.github.io/libreria-csharp-para-generar-archivos-swf-de-flash/",
